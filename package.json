@@ -1,0 +1,15 @@
+{
+  "name": "workspaces_sandbox",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "app1",
+    "app2",
+    "apps-shared"
+  ],
+  "scripts": {
+    "setup": "yarn install",
+    "app1": "yarn workspace app1 start",
+    "app2": "yarn workspace app2 start"
+  }
+}
